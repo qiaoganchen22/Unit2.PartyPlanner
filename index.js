@@ -64,7 +64,7 @@ console.log(obj)
               },
               body:JSON.stringify(obj)
         })
-        location.
+        location.reload()
     }catch(error){
         console.log(error)
     }
@@ -86,9 +86,5 @@ const deleteEvent=async(e)=>{
         console.log(error)
     }
 }
-
-// function deleteq(e){
-//     console.log(e.target.id)
-// }
 render();
 submit.addEventListener("click", addEvent);
